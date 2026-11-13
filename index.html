@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eaf1f9">
+  <meta name="description" content="Faizan AI Works — Ideas | Videos | Brands | Beyond. AI commercials, UGC ads, cinematic films, fashion campaigns, product photography, digital QR menus and custom websites. Based in Bedian Road, Lahore, Pakistan. Serving clients worldwide.">
+  <meta name="keywords" content="Faizan AI Works, AI video production, AI commercials, UGC ads, AI filmmaking Pakistan, digital QR menu, custom website design Lahore, product photography, fashion campaigns">
+  <meta property="og:title" content="Faizan AI Works | Ideas | Videos | Brands | Beyond">
+  <meta property="og:description" content="AI commercials, cinematic video production, fashion campaigns, product visuals, digital QR menus and custom websites. Lahore, Pakistan — serving worldwide.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_PK">
+  <title>Faizan AI Works | AI Creative Production Agency</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --ink:#172638;
+      --muted:#64748b;
+      --cyan:#00c6e8;
+      --blue:#075bdb;
+      --line:rgba(255,255,255,.95);
+      --panel:rgba(255,255,255,.86);
+      --shadow:0 18px 45px rgba(24,48,78,.10);
+      --radius:24px;
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:105px; }
+    body {
+      margin:0; min-height:100vh; display:flex; flex-direction:column;
+      color:var(--ink);
+      font-family:"Plus Jakarta Sans",Arial,sans-serif;
+      background:linear-gradient(135deg,#f5f7fb 0%,#e8eff8 48%,#dce7f4 100%);
+      background-attachment:fixed; overflow-x:hidden;
+    }
+    body,button,input,textarea,select { font-family:"Plus Jakarta Sans",Arial,sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    button { cursor:pointer; }
+    img,svg { max-width:100%; }
+    .container { width:min(1180px,calc(100% - 34px)); margin-inline:auto; }
+    .glass {
+      background:linear-gradient(180deg,rgba(255,255,255,.94),rgba(239,245,252,.88));
+      border:1px solid rgba(255,255,255,.98);
+      box-shadow:var(--shadow),inset 0 1px 2px #fff;
+      backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px);
+    }
+    .section { padding:76px 0; }
+    .eyebrow {
+      display:inline-block; color:#008cae; font-size:.72rem; font-weight:900;
+      letter-spacing:.22em; text-transform:uppercase;
+    }
+    .section-head { text-align:center; max-width:760px; margin:0 auto 36px; }
+    .section-head h2 {
+      margin:10px 0 9px; font:900 clamp(1.8rem,4vw,2.8rem)/1.12 Montserrat,sans-serif;
+      letter-spacing:-.045em;
+    }
+    .section-head p { margin:0; color:var(--muted); line-height:1.8; }
+    .gradient-text {
+      background:linear-gradient(100deg,#00aeca,#0871e8);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .btn {
+      min-height:46px; display:inline-flex; justify-content:center; align-items:center; gap:9px;
+      padding:12px 19px; border-radius:13px; border:1px solid #c5d8e9;
+      font-size:.88rem; font-weight:800; transition:transform .2s,box-shadow .2s,background .2s;
+    }
+    .btn:hover { transform:translateY(-2px); box-shadow:0 12px 24px #008fc52b; }
+    .btn-primary {
+      color:#fff; border-color:transparent;
+      background:linear-gradient(100deg,#00b9d7,#1268e8);
+      box-shadow:0 8px 20px #078bd333;
+    }
+    .btn-light { background:#fff; color:#17344b; }
+    .btn-small { min-height:38px; padding:9px 13px; font-size:.78rem; }
+    .muted { color:var(--muted); }
+
+    /* Header and original ribbon-style F mark */
+    .site-header { position:sticky; top:0; z-index:100; padding:12px 0 8px; }
+    .header-inner {
+      min-height:76px; display:flex; align-items:center; justify-content:space-between;
+      gap:18px; padding:11px 18px; border-radius:20px;
+    }
+    .brand { min-width:0; display:flex; align-items:center; gap:12px; }
+    .brand-mark { width:49px; height:49px; flex:0 0 auto; filter:drop-shadow(0 5px 10px #0878d333); }
+    .brand-copy { min-width:0; }
+    .brand-name {
+      display:block; white-space:nowrap; color:#101d2c;
+      font:900 clamp(1rem,2.4vw,1.62rem)/1.1 Montserrat,sans-serif;
+      letter-spacing:-.045em;
+    }
+    .brand-tagline {
+      display:block; margin-top:4px; color:#52657a; white-space:nowrap;
+      font-size:clamp(.48rem,1.2vw,.72rem); font-weight:700; letter-spacing:.09em;
+      text-transform:uppercase;
+    }
+    .desktop-nav { display:flex; align-items:center; gap:clamp(12px,2vw,25px); }
+    .desktop-nav a { color:#42556b; font-size:.8rem; font-weight:800; transition:color .2s; }
+    .desktop-nav a:hover { color:#008eaf; }
+    .menu-toggle {
+      display:none; width:42px; height:42px; flex:0 0 auto; border:1px solid #d8e2ed;
+      border-radius:12px; background:#fff; color:#132b40; font-size:1.1rem;
+    }
+    .mobile-nav {
+      display:none; margin-top:8px; padding:12px; border-radius:18px;
+    }
+    .mobile-nav.open { display:grid; gap:5px; }
+    .mobile-nav a { padding:11px 12px; border-radius:10px; font-weight:800; color:#344a60; }
+    .mobile-nav a:hover { background:#e7f8fc; color:#007d9e; }
+
+    /* Hero */
+    .hero-wrap { padding:9px 0 22px; }
+    .hero {
+      position:relative; isolation:isolate; overflow:hidden; border-radius:30px;
+      padding:clamp(34px,6vw,72px) clamp(18px,5vw,65px);
+      text-align:center;
+    }
+    .hero:before,.hero:after {
+      content:""; position:absolute; z-index:-1; width:330px; height:330px;
+      border-radius:50%; filter:blur(75px); opacity:.5; pointer-events:none;
+    }
+    .hero:before { background:#54e8f2; top:-210px; left:-130px; }
+    .hero:after { background:#7aa9ff; bottom:-230px; right:-100px; }
+    .hero h1 {
+      max-width:980px; margin:18px auto 14px;
+      color:#202d3c; font:900 clamp(2rem,5.5vw,4.45rem)/1.12 Montserrat,sans-serif;
+      letter-spacing:-.055em;
+    }
+    .hero-copy { max-width:820px; margin:0 auto; color:#586b80; font-size:clamp(.88rem,1.6vw,1.08rem); line-height:1.85; }
+    .hero-actions { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:25px; }
+    .hero-footnote { margin-top:20px; color:#718197; font-size:.76rem; font-weight:700; }
+    .ai-invite {
+      display:inline-flex; align-items:center; gap:13px; max-width:100%; margin-top:30px;
+      padding:10px 19px 10px 10px; border:2px solid #62d9e9; border-radius:999px;
+      background:rgba(255,255,255,.92); box-shadow:0 12px 30px #00a6cb29;
+      text-align:left; transition:.25s;
+    }
+    .ai-invite:hover { transform:translateY(-3px); box-shadow:0 16px 34px #00a6cb40; }
+    .robot-avatar {
+      position:relative; width:54px; height:54px; flex:0 0 auto; display:grid; place-items:center;
+      border:2px solid #30d4e7; border-radius:50%; background:linear-gradient(145deg,#0d1c2d,#243a50);
+      box-shadow:0 0 16px #00c6e855;
+    }
+    .robot-avatar svg { width:40px; height:40px; }
+    .robot-status { position:absolute; width:12px; height:12px; right:0; bottom:0; border:2px solid #fff; border-radius:50%; background:#19bd77; }
+    .ai-invite-title { display:block; color:#14283b; font-weight:900; font-size:.92rem; }
+    .ai-invite-sub { display:block; margin-top:2px; color:#708094; font-size:.68rem; font-weight:700; }
+    .eq { display:inline-flex; height:17px; align-items:center; gap:3px; margin-left:7px; vertical-align:middle; }
+    .eq i { display:block; width:3px; height:6px; border-radius:5px; background:#00aeca; animation:eq .9s ease-in-out infinite; }
+    .eq i:nth-child(2){animation-delay:.15s}.eq i:nth-child(3){animation-delay:.3s}.eq i:nth-child(4){animation-delay:.45s}
+    @keyframes eq { 50% { height:16px; opacity:.55; } }
+
+    /* Service and CTA cards */
+    .quick-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .quick-card,.service-card,.folder-card,.social-card {
+      border-radius:21px; padding:23px; background:linear-gradient(145deg,rgba(255,255,255,.97),rgba(236,244,252,.88));
+      border:1px solid #fff; box-shadow:0 12px 28px #233d5a12; transition:.25s;
+    }
+    .quick-card:hover,.service-card:hover,.folder-card:hover,.social-card:hover {
+      transform:translateY(-4px); border-color:#6ad9e9; box-shadow:0 18px 34px #078fbf20;
+    }
+    .card-icon {
+      width:48px; height:48px; display:grid; place-items:center; border-radius:15px;
+      color:#007eaa; background:linear-gradient(135deg,#e1fbff,#e5efff); font-size:1.35rem;
+    }
+    .quick-card h3 { margin:13px 0 7px; font:800 1.15rem Montserrat,sans-serif; }
+    .quick-card p,.service-card p,.folder-card p { margin:0; color:var(--muted); font-size:.84rem; line-height:1.75; }
+    .quick-card .btn { margin-top:17px; }
+    .service-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:15px; }
+    .service-card { padding:20px; }
+    .service-card h3 { margin:12px 0 6px; font:800 .96rem Montserrat,sans-serif; }
+    .service-card .card-icon { width:43px; height:43px; font-size:1.15rem; }
+    .section-tint { background:rgba(255,255,255,.34); border-top:1px solid #fff9; border-bottom:1px solid #fff9; }
+
+    /* Portfolio folders */
+    .portfolio-intro {
+      max-width:780px; margin:-17px auto 27px; text-align:center;
+      color:#6b7c90; font-size:.82rem; line-height:1.8;
+    }
+    .folder-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:15px; }
+    .folder-card { padding:19px; min-height:184px; }
+    .folder-top { display:flex; justify-content:space-between; align-items:center; gap:8px; }
+    .folder-number { color:#008eaf; font-size:.67rem; font-weight:900; letter-spacing:.16em; }
+    .folder-symbol { font-size:1.45rem; }
+    .folder-card h3 { margin:12px 0 7px; font:800 .96rem/1.35 Montserrat,sans-serif; }
+    .project-list { display:grid; gap:7px; margin-top:13px; }
+    .project-link {
+      display:block; padding:8px 10px; border-radius:9px; background:#eaf4fb;
+      color:#24536b; font-size:.74rem; font-weight:700; overflow-wrap:anywhere;
+    }
+    .project-link:hover { background:#d9f6fb; color:#007e9f; }
+    .empty-projects { margin-top:12px; color:#8795a6; font-size:.72rem; }
+    .portfolio-note { margin-top:18px; color:#718197; text-align:center; font-size:.72rem; }
+
+
+    .category-card { width:100%; text-align:left; color:var(--ink); cursor:pointer; font:inherit; }
+    .category-card h3 { margin:12px 0 7px; font:800 .96rem Montserrat,sans-serif; }
+    .category-open { display:inline-flex; gap:8px; align-items:center; margin-top:16px; color:#008aaa; font-size:.75rem; font-weight:900; }
+    .gallery-modal { position:fixed; inset:0; z-index:300; display:none; align-items:center; justify-content:center; padding:16px; background:rgba(12,28,45,.62); backdrop-filter:blur(8px); }
+    .gallery-modal.open { display:flex; }
+    .gallery-box { position:relative; width:min(760px,100%); max-height:92vh; overflow:auto; padding:clamp(18px,4vw,30px); border:1px solid #fff; border-radius:26px; background:linear-gradient(145deg,#fff,#eaf3fb); box-shadow:0 25px 80px #071b3470; }
+    .gallery-close { position:absolute; right:14px; top:12px; width:38px; height:38px; border:1px solid #d5e3ef; border-radius:50%; background:#fff; color:#18334a; font-size:1rem; }
+    .gallery-box h2 { margin:8px 45px 6px 0; font:900 clamp(1.35rem,4vw,2rem) Montserrat,sans-serif; }
+    .gallery-box>p { color:#687b90; line-height:1.65; font-size:.85rem; }
+    .gallery-stage { position:relative; margin-top:16px; overflow:hidden; border-radius:18px; background:#dce8f3; aspect-ratio:16/9; }
+    .gallery-stage img { width:100%; height:100%; object-fit:cover; display:block; }
+    .gallery-arrow { position:absolute; z-index:2; top:50%; transform:translateY(-50%); width:38px; height:38px; border:1px solid #ffffffb8; border-radius:50%; color:#14334c; background:#ffffffd9; }
+    #galleryPrev { left:10px; } #galleryNext { right:10px; }
+    .gallery-caption { position:absolute; inset:auto 0 0; padding:28px 15px 13px; color:#fff; font-weight:800; font-size:.85rem; background:linear-gradient(transparent,#071b34d9); }
+    .gallery-dots { display:flex; justify-content:center; gap:7px; margin:13px 0; }
+    .gallery-dots button { width:8px; height:8px; border:0; border-radius:50%; background:#b7c9d9; padding:0; }
+    .gallery-dots button.active { width:23px; border-radius:10px; background:#00aeca; }
+    .gallery-projects { display:flex; flex-wrap:wrap; gap:8px; }
+    .gallery-projects a { padding:9px 12px; border-radius:10px; background:#e2f4fa; color:#12617c; font-size:.75rem; font-weight:800; }
+    .gallery-note { margin:12px 0 0!important; font-size:.68rem!important; }
+    .footer-lockup { display:flex; justify-content:center; align-items:center; gap:14px; margin:0 auto 8px; }
+    .footer-mark { width:66px; height:66px; filter:drop-shadow(0 0 12px #00cfff55); }
+    .footer-lockup>div { text-align:left; }
+    @media(max-width:560px){.gallery-stage{aspect-ratio:4/3}.footer-mark{width:54px;height:54px}.footer-brand{font-size:1.08rem}}
+
+    /* Social channel cards — photographic, restrained and consistent with the approved reference */
+    .social-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .social-card {
+      position:relative; isolation:isolate; overflow:hidden; display:flex; align-items:center; gap:11px;
+      min-width:0; min-height:104px; padding:14px 13px; border-radius:20px;
+      color:#fff; background-color:#101b27; background-image:var(--social-image);
+      background-position:center; background-size:cover; border:1px solid rgba(255,255,255,.9);
+      box-shadow:0 8px 20px rgba(18,42,66,.13); transition:transform .22s,box-shadow .22s;
+    }
+    .social-card::before { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(7,17,27,.97) 0%,rgba(7,17,27,.82) 48%,rgba(7,17,27,.12) 100%); }
+    .social-card:hover { transform:translateY(-2px); box-shadow:0 13px 25px rgba(18,42,66,.2); border-color:#fff; }
+    .social-icon {
+      width:44px; height:44px; flex:0 0 44px; display:grid; place-items:center;
+      border-radius:50%; color:#fff; background:#1877f2; font-size:1.28rem;
+      box-shadow:0 2px 10px rgba(0,0,0,.2);
+    }
+    .social-icon.instagram { background:linear-gradient(35deg,#ffb13b,#f02d79 55%,#7446d8); }
+    .social-icon.tiktok,.social-icon.threads,.social-icon.xbrand { background:#05080c; }
+    .social-icon.youtube { background:#f21b26; }
+    .social-copy { display:block; min-width:0; position:relative; z-index:1; }
+    .social-titleline { display:flex; align-items:center; flex-wrap:wrap; gap:5px; }
+    .social-card strong { display:block; color:#fff; font-size:.82rem; line-height:1.2; font-weight:900; }
+    .social-card small { display:block; margin-top:5px; color:#fff; font-size:.68rem; line-height:1.3; overflow-wrap:anywhere; }
+    .social-type { display:inline-flex; align-items:center; padding:3px 7px; border-radius:7px; background:#1877f2; color:#fff; font-size:.58rem; font-weight:900; line-height:1; }
+    .social-type.profile { background:#657386; }
+
+    /* Contact */
+    .contact-box {
+      padding:clamp(25px,5vw,48px); border-radius:28px; text-align:center;
+      background:linear-gradient(125deg,#fff,#e7f4fc); border:1px solid #fff;
+      box-shadow:0 18px 42px #1c426018;
+    }
+    .contact-box h2 { margin:12px 0; font:900 clamp(1.8rem,4vw,2.8rem)/1.15 Montserrat,sans-serif; letter-spacing:-.04em; }
+    .contact-box p { max-width:700px; margin:0 auto 22px; color:#687b90; line-height:1.8; font-size:.9rem; }
+    .contact-links { display:flex; justify-content:center; gap:14px 25px; flex-wrap:wrap; margin-top:23px; }
+    .contact-links a { color:#087c9e; font-size:.85rem; font-weight:800; }
+    .location-note { margin-top:20px !important; margin-bottom:0 !important; font-size:.78rem !important; }
+
+    /* Footer signature */
+    footer { margin-top:auto; padding:35px 0 22px; color:#f6fbff; text-align:center; background:linear-gradient(135deg,#252a32,#343942 55%,#20252d); }
+    .footer-brand { font:900 1.25rem Montserrat,sans-serif; }
+    .footer-tag { margin-top:5px; color:#b9cde0; font-size:.68rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+    .signature-wrap { margin:25px auto 20px; max-width:520px; padding:0 12px; }
+    .signature-laser-line {
+      height:5px; width:82%; max-width:420px; margin:0 auto 13px; border-radius:999px;
+      background:linear-gradient(90deg,transparent 0%,#0052ff 12%,#00e1ff 38%,#00ffff 50%,#00e1ff 62%,#0052ff 88%,transparent 100%);
+      box-shadow:0 0 16px 2px #00f2feaa,0 0 32px 4px #0066ff70;
+    }
+    .sig-line-1,.sig-line-2 { display:block; white-space:nowrap; font-family:Montserrat,sans-serif; text-shadow:0 0 12px #00dff5a8; }
+    .sig-line-1 { font-size:clamp(.65rem,2.8vw,1.3rem); font-weight:700; letter-spacing:clamp(.2em,1vw,.42em); padding-left:clamp(.2em,1vw,.42em); }
+    .sig-line-2 { margin-top:5px; color:#dcefff; font-size:clamp(.56rem,2.2vw,1rem); font-weight:600; letter-spacing:clamp(.22em,1vw,.43em); padding-left:clamp(.22em,1vw,.43em); }
+    .copyright { color:#9db1c5; font-size:.68rem; line-height:1.8; }
+
+    /* AI assistant */
+    .assistant-launcher {
+      position:fixed; right:19px; bottom:18px; z-index:150; width:62px; height:62px;
+      display:grid; place-items:center; border:2px solid #fff; border-radius:50%;
+      background:linear-gradient(135deg,#00d4e8,#1266e9); color:#fff; font-size:1.4rem;
+      box-shadow:0 8px 28px #057bc65c; transition:.2s;
+    }
+    .assistant-launcher:hover { transform:translateY(-3px) scale(1.03); }
+    .chat-panel {
+      position:fixed; right:19px; bottom:92px; z-index:151; display:none;
+      width:min(390px,calc(100vw - 28px)); overflow:hidden; border-radius:21px;
+      background:#f8fbff; border:1px solid #bce7f0; box-shadow:0 22px 60px #142b4560;
+    }
+    .chat-panel.open { display:flex; flex-direction:column; }
+    .chat-head {
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding:14px 16px; color:#fff; background:linear-gradient(110deg,#10283d,#075a84);
+    }
+    .chat-head strong { font-size:.9rem; }
+    .chat-head small { display:block; margin-top:3px; color:#b7e8f3; font-size:.66rem; }
+    .chat-close { border:0; background:transparent; color:#fff; font-size:1.4rem; }
+    .chat-messages { height:290px; overflow-y:auto; display:flex; flex-direction:column; gap:10px; padding:14px; }
+    .message { max-width:89%; padding:10px 12px; border-radius:13px; font-size:.78rem; line-height:1.65; white-space:pre-wrap; overflow-wrap:anywhere; }
+    .bot-message { align-self:flex-start; background:#e8f2f9; color:#263e54; border-bottom-left-radius:4px; }
+    .user-message { align-self:flex-end; background:#087f9e; color:#fff; border-bottom-right-radius:4px; }
+    .chat-compose { padding:11px; border-top:1px solid #dce8f1; background:#fff; }
+    .chat-form { display:flex; gap:7px; }
+    .chat-form input {
+      min-width:0; flex:1; padding:11px 12px; border:1px solid #d5e2ed; border-radius:10px;
+      color:#172638; background:#f8fbff; outline:none; font-size:.78rem;
+    }
+    .chat-form input:focus { border-color:#29bcd6; box-shadow:0 0 0 3px #20c5df20; }
+    .chat-form button { padding:0 14px; border:0; border-radius:10px; background:#087f9e; color:#fff; font-weight:800; }
+    .chat-tools { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:9px; }
+    .chat-tools button {
+      padding:7px 9px; border:1px solid #d6e5ef; border-radius:8px;
+      color:#14647c; background:#f5fbff; font-size:.68rem; font-weight:800;
+    }
+    .chat-status { min-height:15px; margin-top:5px; color:#718197; font-size:.62rem; }
+    .chat-hint { color:#8492a2; font-size:.61rem; line-height:1.5; margin-top:4px; }
+
+    /* Admin: convenience PIN only, not secure authentication */
+    .admin-banner { position:sticky; top:0; z-index:120; display:none; padding:9px 14px; background:#12263b; color:#fff; border-bottom:2px solid #00c6e8; }
+    .admin-banner.active { display:block; }
+    .admin-banner-inner { width:min(1180px,100%); margin:auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; font-size:.72rem; }
+    .admin-actions { display:flex; gap:7px; flex-wrap:wrap; }
+    .admin-actions button { border:0; border-radius:8px; padding:7px 10px; color:#fff; background:#31506c; font-size:.7rem; font-weight:800; }
+    .admin-actions .save { color:#08212c; background:#58e2c0; }
+    .admin-modal {
+      position:fixed; inset:0; z-index:300; display:none; overflow:auto; padding:18px;
+      background:#06111edb; backdrop-filter:blur(7px);
+    }
+    .admin-modal.open { display:block; }
+    .admin-box { width:min(600px,100%); margin:35px auto; padding:24px; border-radius:20px; background:#f8fbff; color:#172638; box-shadow:0 25px 70px #0006; }
+    .admin-box h2 { margin:0 0 8px; font:900 1.35rem Montserrat,sans-serif; }
+    .admin-box label { display:block; margin:12px 0 5px; color:#53677d; font-size:.75rem; font-weight:800; }
+    .admin-box input,.admin-box select,.admin-box textarea {
+      width:100%; padding:11px 12px; border:1px solid #d4e0eb; border-radius:9px;
+      background:#fff; color:#172638; font-size:.82rem;
+    }
+    .admin-box textarea { min-height:75px; resize:vertical; }
+    .admin-box button { border:0; border-radius:9px; padding:10px 14px; font-size:.78rem; font-weight:800; }
+    .admin-primary { background:#087f9e; color:#fff; }
+    .admin-secondary { background:#e7eef5; color:#274157; }
+    .admin-danger { background:#fee2e2; color:#991b1b; }
+    .admin-row { display:flex; gap:8px; flex-wrap:wrap; margin-top:12px; }
+    .admin-message { min-height:18px; margin-top:10px; color:#087f9e; font-size:.73rem; }
+    .admin-warning { margin:10px 0; padding:10px; border-radius:9px; background:#fff5d9; color:#805b0b; font-size:.7rem; line-height:1.6; }
+
+    @media (max-width:980px) {
+      .desktop-nav { gap:12px; }
+      .desktop-nav a { font-size:.72rem; }
+      .folder-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .social-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    }
+    @media (max-width:760px) {
+      .desktop-nav { display:none; }
+      .menu-toggle { display:block; }
+      .header-inner { min-height:67px; padding:9px 12px; }
+      .brand-mark { width:43px; height:43px; }
+      .hero { border-radius:23px; }
+      .service-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .section { padding:60px 0; }
+    }
+    @media (max-width:520px) {
+      .container { width:calc(100% - 24px); }
+      .site-header { padding-top:8px; }
+      .header-inner { gap:7px; }
+      .brand { gap:8px; }
+      .brand-mark { width:37px; height:37px; }
+      .brand-name { font-size:clamp(.86rem,4.1vw,1.08rem); }
+      .brand-tagline { font-size:clamp(.42rem,1.9vw,.57rem); letter-spacing:.035em; }
+      .menu-toggle { width:38px; height:38px; }
+      .hero { padding:34px 15px; }
+      .hero h1 { font-size:clamp(1.85rem,9vw,2.65rem); }
+      .hero-actions { flex-direction:column; align-items:stretch; }
+      .hero-actions .btn { width:100%; }
+      .ai-invite { gap:9px; padding-right:12px; }
+      .robot-avatar { width:47px; height:47px; }
+      .ai-invite-title { font-size:.8rem; }
+      .quick-grid,.service-grid { grid-template-columns:1fr; }
+      .folder-grid { grid-template-columns:1fr 1fr; gap:10px; }
+      .folder-card { padding:14px; min-height:180px; }
+      .folder-card h3 { font-size:.82rem; }
+      .folder-card p { font-size:.72rem; }
+      .social-grid { grid-template-columns:1fr 1fr; gap:9px; }
+      .social-card { min-height:78px; padding:10px 8px; gap:7px; border-radius:15px; }
+      .social-icon { width:34px; height:34px; flex-basis:34px; font-size:1rem; }
+      .social-card strong { font-size:.66rem; }
+      .social-card small { font-size:.57rem; margin-top:4px; }
+      .social-type { font-size:.48rem; padding:3px 5px; }
+      .sig-line-1 { letter-spacing:.17em; padding-left:.17em; font-size:clamp(.58rem,3vw,.85rem); }
+      .sig-line-2 { letter-spacing:.18em; padding-left:.18em; font-size:clamp(.5rem,2.5vw,.76rem); }
+      .assistant-launcher { width:56px; height:56px; right:12px; bottom:12px; }
+      .chat-panel { right:10px; bottom:78px; width:calc(100vw - 20px); }
+    }
+    @media (max-width:350px) {
+      .brand-tagline { letter-spacing:0; }
+      .folder-grid { grid-template-columns:1fr; }
+      .social-grid { grid-template-columns:1fr 1fr; }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      *,*::before,*::after { scroll-behavior:auto !important; animation-duration:.01ms !important; transition-duration:.01ms !important; }
+    }
+
+    /* Premium motion visuals and inline category carousels */
+    .quick-card{position:relative;overflow:hidden}
+    .quick-visual{height:190px;border-radius:19px;margin:-2px 0 20px;position:relative;overflow:hidden;background:linear-gradient(135deg,#dffaff,#dce9ff 60%,#f8fcff);border:1px solid #d6f5fb;display:grid;place-items:center}
+    .qr-art{width:118px;height:118px;background:#fff;border:8px solid #fff;border-radius:12px;box-shadow:0 12px 35px #087ba833;position:relative;display:grid;grid-template-columns:repeat(7,1fr);gap:4px;padding:5px;transform:rotate(-5deg);animation:qrFloat 4s ease-in-out infinite}
+    .qr-art span{background:#087e9e;border-radius:2px;animation:qrPulse 2.4s ease-in-out infinite alternate}
+    .qr-art span:nth-child(3n){background:#06b6d4}.qr-art span:nth-child(4n){opacity:.18}.qr-art span:nth-child(5n){background:#075bdb}
+    .qr-art:before,.qr-art:after{content:"";position:absolute;width:27px;height:27px;border:6px solid #087e9e;background:#fff;top:5px;left:5px;box-shadow:68px 0 0 -6px #fff,68px 0 0 0 #087e9e,0 68px 0 -6px #fff,0 68px 0 0 #087e9e}
+    .qr-scan{position:absolute;width:150px;height:3px;background:#00d8f5;box-shadow:0 0 16px #00d8f5;top:20%;animation:scan 3s ease-in-out infinite}
+    .qr-chip{position:absolute;right:8%;bottom:15%;padding:8px 13px;border-radius:30px;background:#fff;color:#087e9e;font-weight:900;font-size:.72rem;box-shadow:0 8px 22px #0c5d8820}
+    @keyframes scan{0%,100%{transform:translateY(0);opacity:.3}50%{transform:translateY(105px);opacity:1}}
+    @keyframes qrFloat{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-8px) rotate(-2deg)}}
+    @keyframes qrPulse{to{opacity:.45}}
+    .web-visual{height:190px;border-radius:19px;margin:-2px 0 20px;position:relative;overflow:hidden;background:linear-gradient(135deg,#dffaff,#dce9ff 60%,#f8fcff);border:1px solid #d6f5fb;display:grid;place-items:center}
+    .browser-mock{width:78%;height:125px;border-radius:13px;background:#fff;box-shadow:0 15px 35px #124c7730;overflow:hidden;transform:perspective(500px) rotateY(-8deg);animation:webFloat 5s ease-in-out infinite}
+    .browser-top{height:19px;background:#eaf3fa;display:flex;align-items:center;gap:4px;padding:0 8px}.browser-top i{width:5px;height:5px;border-radius:50%;background:#0aa9c6}
+    .browser-content{padding:13px;display:grid;grid-template-columns:1fr 1fr;gap:8px}.browser-copy b{display:block;width:80%;height:8px;border-radius:5px;background:#0d789e;margin-bottom:7px}.browser-copy span{display:block;width:95%;height:4px;border-radius:4px;background:#c8d8e6;margin:5px 0}.browser-copy em{display:block;width:45%;height:12px;border-radius:5px;background:linear-gradient(90deg,#00b8d2,#1268e8);margin-top:9px}.browser-image{border-radius:8px;background:linear-gradient(135deg,#00c6e8,#1268e8);position:relative;overflow:hidden}.browser-image:after{content:"";position:absolute;width:65px;height:65px;border-radius:50%;background:#ffffff55;right:-8px;top:-12px}
+    @keyframes webFloat{0%,100%{transform:perspective(500px) rotateY(-8deg) translateY(0)}50%{transform:perspective(500px) rotateY(0) translateY(-7px)}}
+    .quick-card .btn{margin-top:8px}
+    .live-demo-btn{margin-left:8px;background:#fff;color:#087f9e;border:1px solid #a9dce8}
+    .category-card{display:block;border:1px solid rgba(255,255,255,.98);border-radius:24px;padding:19px;text-align:left;background:linear-gradient(180deg,rgba(255,255,255,.94),rgba(239,245,252,.88));box-shadow:var(--shadow),inset 0 1px 2px #fff;overflow:hidden;min-width:0}
+    .category-card h3{margin:12px 0 7px;font:800 .96rem Montserrat,sans-serif}
+    .category-card p{margin:0;color:var(--muted);font-size:.82rem;line-height:1.7}
+    .category-showcase{height:175px;margin:14px 0 0;border-radius:16px;overflow:hidden;position:relative;background:#dce8f3}
+    .category-showcase img{width:100%;height:100%;display:block;object-fit:cover;transition:opacity .65s,transform 5s;opacity:1}
+    .category-showcase img.fade{opacity:.15;transform:scale(1.04)}
+    .showcase-caption{position:absolute;left:0;right:0;bottom:0;padding:25px 13px 11px;color:white;font-size:.72rem;font-weight:800;background:linear-gradient(transparent,#10243bd9)}
+    .showcase-count{position:absolute;right:10px;top:10px;padding:5px 8px;border-radius:20px;background:#ffffffdf;color:#17435a;font-size:.62rem;font-weight:900}
+    .showcase-dots{display:flex;gap:5px;position:absolute;left:12px;top:12px}.showcase-dots i{width:6px;height:6px;border-radius:9px;background:#ffffff88}.showcase-dots i.active{width:18px;background:#fff}
+    .category-card .card-icon{width:54px;height:54px}
+    .category-grid{align-items:stretch}
+    .menu-demo-modal{display:none;position:fixed;inset:0;z-index:160;background:#0c1a2c99;backdrop-filter:blur(9px);padding:18px;overflow:auto}
+    .menu-demo-modal.open{display:grid;place-items:center}
+    .menu-demo-box{width:min(520px,100%);max-height:92vh;overflow:auto;border-radius:25px;padding:22px;background:#f8fbff;box-shadow:0 25px 80px #0005}
+    .menu-demo-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.menu-demo-close{width:40px;height:40px;border-radius:50%;border:1px solid #d5e2ec;background:white;color:#17344b;font-size:1.2rem}
+    .menu-demo-brand{font:900 1.25rem Montserrat,sans-serif}.menu-demo-sub{color:#728296;font-size:.78rem;margin:5px 0 16px}
+    .menu-item{display:grid;grid-template-columns:76px 1fr auto;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid #e1eaf1}.menu-item img{width:76px;height:66px;object-fit:cover;border-radius:12px}.menu-item strong{font-size:.84rem}.menu-item small{display:block;color:#718096;font-size:.68rem;margin-top:4px}.menu-price{font-weight:900;color:#087f9e;font-size:.82rem}
+    .menu-demo-note{font-size:.68rem;color:#77879a;margin-top:14px;line-height:1.6}
+    @media(max-width:560px){.quick-visual,.web-visual{height:160px}.category-showcase{height:160px}.live-demo-btn{margin:9px 0 0;width:100%}}
+
+  </style>
+</head>
+
+<body>
+  <!-- Admin bar appears only after opening the admin panel and entering the demo PIN. -->
+  <div id="adminBanner" class="admin-banner">
+    <div class="admin-banner-inner">
+      <strong><i class="fa-solid fa-shield-halved"></i> ADMIN EDIT MODE</strong>
+      <span>Manage category project links and showcase items.</span>
+      <div class="admin-actions">
+        <button class="save" id="saveAdminBtn"><i class="fa-solid fa-floppy-disk"></i> Save</button>
+        <button id="openEditorBtn">Edit category content</button>
+        <button id="exitAdminBtn">Exit admin</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner glass">
+        <a class="brand" href="#home" aria-label="Faizan AI Works home">
+          <svg class="brand-mark" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="fTopGrad" x1="16" y1="88" x2="112" y2="14" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#0038d8"/><stop offset="48%" stop-color="#0095ff"/><stop offset="100%" stop-color="#00f7ff"/>
+              </linearGradient>
+              <linearGradient id="fBotGrad" x1="12" y1="112" x2="90" y2="52" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#00f7ff"/><stop offset="55%" stop-color="#0088ff"/><stop offset="100%" stop-color="#0040e5"/>
+              </linearGradient>
+              <linearGradient id="fShadowGrad" x1="22" y1="54" x2="58" y2="74" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#00126b" stop-opacity=".9"/><stop offset="100%" stop-color="#0051ff" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <path d="M18 84 C24 52 30 30 43 20 C53 13 68 13 114 13 C107 32 96 42 78 42 L51 42 C42 42 37 48 33 63 L18 84Z" fill="url(#fTopGrad)"/>
+            <path d="M22 76 C28 56 38 49 52 49 L68 49 L44 68Z" fill="url(#fShadowGrad)"/>
+            <path d="M12 110 C18 80 23 63 34 54 C42 48 54 48 92 48 C87 65 77 74 60 74 L47 74 C39 74 35 80 31 96 C28 106 23 110 12 110Z" fill="url(#fBotGrad)"/>
+          </svg>
+          <span class="brand-copy">
+            <span class="brand-name" id="brandTitle">Faizan AI Works</span>
+            <span class="brand-tagline" id="brandTagline">Ideas | Videos | Brands | Beyond</span>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#home">Home</a><a href="#services">Services &amp; Portfolio</a><a href="#custom-solutions">QR Menus &amp; Websites</a><a href="#social">Social</a><a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      </div>
+      <nav class="mobile-nav glass" id="mobileNav" aria-label="Mobile navigation">
+        <a href="#home">Home</a><a href="#services">Services &amp; Portfolio</a><a href="#custom-solutions">QR Menus &amp; Websites</a><a href="#social">Social Media</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-wrap">
+      <div class="container">
+        <div class="hero glass">
+          <span class="eyebrow">AI Creative Production Agency · Lahore, Pakistan</span>
+          <h1 id="heroHeading">FUTURE OF AI FILMMAKING <br>&amp; <span class="gradient-text">COMMERCIAL ADS.</span></h1>
+          <p class="hero-copy" id="heroSub">
+            We turn bold ideas into powerful visual experiences — AI TV commercials, UGC ads, cinematic films, fashion campaigns, product photography, social content, digital restaurant QR menus and custom websites.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#services"><i class="fa-solid fa-wand-magic-sparkles"></i> Explore Our Services</a>
+            <a class="btn btn-light" href="https://wa.me/923446678815?text=Hello%20Faizan%20AI%20Works%2C%20I%20would%20like%20to%20discuss%20a%20creative%20project." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Start a Project</a>
+          </div>
+          <button class="ai-invite" id="heroAssistantBtn" type="button" aria-label="Open Faizan AI Works assistant">
+            <span class="robot-avatar" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <line x1="32" y1="6" x2="32" y2="14" stroke="#00f2fe" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="32" cy="5" r="3.5" fill="#00f2fe"/>
+                <rect x="6" y="25" width="6" height="14" rx="3" fill="#00d2ff"/><rect x="52" y="25" width="6" height="14" rx="3" fill="#00d2ff"/>
+                <rect x="11" y="14" width="42" height="36" rx="16" fill="#e0f2fe" stroke="#00d2ff" stroke-width="2"/>
+                <rect x="16" y="22" width="32" height="18" rx="9" fill="#101c2d" stroke="#38bdf8" stroke-width="1.2"/>
+                <circle cx="25" cy="30" r="3.2" fill="#00f2fe"/><circle cx="39" cy="30" r="3.2" fill="#00f2fe"/>
+                <path d="M28 35 Q32 38 36 35" stroke="#00f2fe" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span class="robot-status"></span>
+            </span>
+            <span>
+              <span class="ai-invite-title">Talk to Our AI Assistant <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span>
+              <span class="ai-invite-sub">Ask about services, projects, location &amp; pricing</span>
+            </span>
+          </button>
+          <div class="hero-footnote"><i class="fa-solid fa-globe"></i> 100% Online Global Agency · Based in Bedian Road, Lahore, Pakistan</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="custom-solutions" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Fast-track business solutions</span>
+          <h2>Give Your Business a <span class="gradient-text">Digital Upgrade.</span></h2>
+          <p>Two direct ways to get started. Tell us what you need and we’ll discuss the right scope for your business.</p>
+        </div>
+        <div class="quick-grid">
+          <article class="quick-card">
+            <div class="quick-visual" aria-label="Animated QR code visual"><div class="qr-art" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="qr-scan"></div><span class="qr-chip">SCAN · EXPLORE · ORDER</span></div>
+            <h3>Digital Restaurant QR Menus</h3>
+            <p>Modern mobile-friendly digital menus for restaurants, cafes and food businesses. Scan and browse a complete menu in seconds.</p>
+            <button class="btn btn-primary" id="openMenuDemo" type="button">View Live Demo <i class="fa-solid fa-arrow-right"></i></button>
+            <a class="btn live-demo-btn" href="https://wa.me/923446678815?text=Hello%20Faizan%20AI%20Works%2C%20I%20need%20a%20Digital%20Restaurant%20QR%20Menu.%20Please%20discuss%20the%20requirements%20with%20me." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Request a QR Menu</a>
+          </article>
+          <article class="quick-card">
+            <div class="web-visual" aria-label="Animated website design preview"><div class="browser-mock"><div class="browser-top"><i></i><i></i><i></i></div><div class="browser-content"><div class="browser-copy"><b></b><span></span><span></span><em></em></div><div class="browser-image"></div></div></div></div>
+            <h3>Custom Website Design</h3>
+            <p>Responsive websites and polished digital experiences designed around your brand, services and business goals.</p>
+            <a class="btn btn-primary" href="https://wa.me/923446678815?text=Hello%20Faizan%20AI%20Works%2C%20I%20want%20a%20custom%20website%20for%20my%20business.%20Please%20contact%20me%20to%20discuss%20the%20requirements." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Order a Website</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-tint">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What we create</span>
+          <h2>Creative <span class="gradient-text">AI Services.</span></h2>
+          <p>Explore our production categories. Each category features its own visual showcase that plays automatically as it enters your screen.</p>
+        </div>
+        <div class="service-grid category-grid" id="categoryGrid">
+          <article class="category-card" data-category="0">
+            <div class="card-icon"><i class="fa-solid fa-film"></i></div><h3>AI TV Commercials</h3><p>Premium AI-powered commercials and product advertising.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="AI TV Commercials portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">AI TV Commercials</span></div>
+          </article>
+          <article class="category-card" data-category="1">
+            <div class="card-icon"><i class="fa-solid fa-mobile-screen"></i></div><h3>UGC Video Ads</h3><p>Creator-style video ads for social platforms and campaigns.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="UGC Video Ads portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">UGC Video Ads</span></div>
+          </article>
+          <article class="category-card" data-category="2">
+            <div class="card-icon"><i class="fa-solid fa-code"></i></div><h3>JSON Ads</h3><p>Structured creative ad workflows and JSON-based production.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="JSON Ads portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">JSON Ads</span></div>
+          </article>
+          <article class="category-card" data-category="3">
+            <div class="card-icon"><i class="fa-solid fa-clapperboard"></i></div><h3>AI Drama & Film</h3><p>AI-assisted cinematic storytelling, scenes and film projects.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="AI Drama & Film portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">AI Drama & Film</span></div>
+          </article>
+          <article class="category-card" data-category="4">
+            <div class="card-icon"><i class="fa-solid fa-shirt"></i></div><h3>Fashion Shoots</h3><p>Fashion campaigns, model visuals and editorial-style shoots.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="Fashion Shoots portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">Fashion Shoots</span></div>
+          </article>
+          <article class="category-card" data-category="5">
+            <div class="card-icon"><i class="fa-solid fa-camera"></i></div><h3>Product Photography</h3><p>Attention-grabbing product visuals and advertising imagery.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="Product Photography portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">Product Photography</span></div>
+          </article>
+          <article class="category-card" data-category="6">
+            <div class="card-icon"><i class="fa-solid fa-images"></i></div><h3>Social Media Carousels</h3><p>Branded visual sequences for social media communication.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="Social Media Carousels portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">Social Media Carousels</span></div>
+          </article>
+          <article class="category-card" data-category="7">
+            <div class="card-icon"><i class="fa-solid fa-qrcode"></i></div><h3>Digital QR Menus</h3><p>Scan-to-view menus for restaurants, cafes and food brands.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="Digital QR Menus portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">Digital QR Menus</span></div>
+          </article>
+          <article class="category-card" data-category="8">
+            <div class="card-icon"><i class="fa-solid fa-globe"></i></div><h3>Custom Website Design</h3><p>Modern responsive websites for businesses and personal brands.</p>
+            <div class="category-showcase"><img class="category-slide-image" src="" alt="Custom Website Design portfolio showcase" loading="lazy"><span class="showcase-count">01 / 03</span><span class="showcase-dots"><i class="active"></i><i></i><i></i></span><span class="showcase-caption">Custom Website Design</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="menu-demo-modal" id="menuDemoModal" role="dialog" aria-modal="true" aria-label="Restaurant QR menu live demo">
+      <div class="menu-demo-box">
+        <div class="menu-demo-head"><div><div class="menu-demo-brand">THE URBAN TABLE</div><span class="eyebrow">Restaurant · Live menu demo</span></div><button class="menu-demo-close" id="closeMenuDemo" type="button" aria-label="Close">×</button></div>
+        <p class="menu-demo-sub">Freshly prepared favourites · Sample prices in PKR</p>
+        <div class="menu-item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=240&q=80" alt="Coffee"><span><strong>Caramel Latte</strong><small>Espresso, steamed milk, caramel</small></span><b class="menu-price">Rs. 650</b></div>
+        <div class="menu-item"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=240&q=80" alt="Pizza"><span><strong>Classic Margherita Pizza</strong><small>Mozzarella, basil, tomato</small></span><b class="menu-price">Rs. 1,450</b></div>
+        <div class="menu-item"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=240&q=80" alt="Burger"><span><strong>Signature Beef Burger</strong><small>Beef patty, cheddar, house sauce</small></span><b class="menu-price">Rs. 1,150</b></div>
+        <div class="menu-item"><img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=240&q=80" alt="Iced tea"><span><strong>Peach Iced Tea</strong><small>Fresh brewed tea, peach, lemon</small></span><b class="menu-price">Rs. 420</b></div>
+        <a class="btn btn-primary" style="width:100%;margin-top:18px" href="https://wa.me/923446678815?text=Hello%20Faizan%20AI%20Works%2C%20I%20would%20like%20a%20restaurant%20QR%20menu%20like%20your%20live%20demo." target="_blank" rel="noopener noreferrer">Build My Restaurant Menu <i class="fa-brands fa-whatsapp"></i></a>
+        <p class="menu-demo-note">This is a demonstration menu. Items, images and prices are examples and can be replaced with the restaurant’s real menu.</p>
+      </div>
+    </div>
+    <section id="social" class="section section-tint">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Our digital network</span>
+          <h2>Follow <span class="gradient-text">Our Work.</span></h2>
+          <p>Explore Faizan AI Works and our dedicated creative channels.</p>
+        </div>
+        <div class="social-grid">
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=900&q=85')" href="https://www.facebook.com/share/19qoM47tmA/" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="fa-brands fa-facebook-f"></i></span><span class="social-copy"><span class="social-titleline"><strong>Facebook</strong><em class="social-type">Page</em></span><small>Faizan AI Works</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=900&q=85')" href="https://www.facebook.com/share/1BC5rVVmWu/" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="fa-brands fa-facebook-f"></i></span><span class="social-copy"><span class="social-titleline"><strong>Facebook</strong><em class="social-type">Page</em></span><small>Safari Twist</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1513828583688-c52646e6c309?auto=format&fit=crop&w=900&q=85')" href="https://www.facebook.com/share/1E3usFfG8/" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="fa-brands fa-facebook-f"></i></span><span class="social-copy"><span class="social-titleline"><strong>Facebook</strong><em class="social-type">Page</em></span><small>Oil Rig Live</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85')" href="https://www.facebook.com/share/1btZGyTyFu/" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="fa-brands fa-facebook-f"></i></span><span class="social-copy"><span class="social-titleline"><strong>Facebook</strong><em class="social-type profile">Profile</em></span><small>Personal Profile</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=900&q=85')" href="https://www.instagram.com/faizanaiwork?dlrf=MWtxNHF3M3p6ajV4Zg==" target="_blank" rel="noopener noreferrer"><span class="social-icon instagram"><i class="fa-brands fa-instagram"></i></span><span class="social-copy"><span class="social-titleline"><strong>Instagram</strong></span><small>@faizanaiwork</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85')" href="https://www.tiktok.com/@faizan.ai.works?_r=1&_t=ZN-9BMqjMnpk1e" target="_blank" rel="noopener noreferrer"><span class="social-icon tiktok"><i class="fa-brands fa-tiktok"></i></span><span class="social-copy"><span class="social-titleline"><strong>TikTok</strong></span><small>@faizan.ai.works</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85')" href="https://www.threads.net/@faizanaiwork" target="_blank" rel="noopener noreferrer"><span class="social-icon threads"><i class="fa-brands fa-threads"></i></span><span class="social-copy"><span class="social-titleline"><strong>Threads</strong></span><small>@faizanaiwork</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85')" href="https://x.com/FaizanAIWorks" target="_blank" rel="noopener noreferrer"><span class="social-icon xbrand"><i class="fa-brands fa-x-twitter"></i></span><span class="social-copy"><span class="social-titleline"><strong>X / Twitter</strong></span><small>@FaizanAIWorks</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=900&q=85')" href="https://www.youtube.com/@FaizanAIWorks" target="_blank" rel="noopener noreferrer"><span class="social-icon youtube"><i class="fa-brands fa-youtube"></i></span><span class="social-copy"><span class="social-titleline"><strong>YouTube</strong></span><small>Faizan AI Works</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=85')" href="https://www.youtube.com/@VIDROMA" target="_blank" rel="noopener noreferrer"><span class="social-icon youtube"><i class="fa-brands fa-youtube"></i></span><span class="social-copy"><span class="social-titleline"><strong>YouTube</strong></span><small>VIDROMA</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=900&q=85')" href="https://www.youtube.com/results?search_query=Cargo+Surge" target="_blank" rel="noopener noreferrer"><span class="social-icon youtube"><i class="fa-brands fa-youtube"></i></span><span class="social-copy"><span class="social-titleline"><strong>YouTube</strong></span><small>Cargo Surge · Search</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1513828583688-c52646e6c309?auto=format&fit=crop&w=900&q=85')" href="https://www.youtube.com/results?search_query=Oil+Rig+Live" target="_blank" rel="noopener noreferrer"><span class="social-icon youtube"><i class="fa-brands fa-youtube"></i></span><span class="social-copy"><span class="social-titleline"><strong>YouTube</strong></span><small>Oil Rig Live · Search</small></span></a>
+          <a class="social-card" style="--social-image:url('https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=85')" href="https://www.youtube.com/results?search_query=Safari+Twist" target="_blank" rel="noopener noreferrer"><span class="social-icon youtube"><i class="fa-brands fa-youtube"></i></span><span class="social-copy"><span class="social-titleline"><strong>YouTube</strong></span><small>Safari Twist · Search</small></span></a>
+        </div>
+        <p class="portfolio-note">The three YouTube links marked “Search” are search destinations, not verified channel URLs. Replace them with exact channel URLs when available.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-box">
+          <span class="eyebrow">Let’s create something remarkable</span>
+          <h2>Have an Idea? <span class="gradient-text">Let’s Build It.</span></h2>
+          <p>Tell us what you’re planning. We’ll discuss your project scope, creative direction and deliverables before proposing a suitable solution. Pricing depends on the specific project — we do not publish arbitrary fixed prices.</p>
+          <a class="btn btn-primary" href="https://wa.me/923446678815?text=Hello%20Faizan%20AI%20Works%2C%20I%20have%20a%20project%20inquiry.%20I%20would%20like%20to%20discuss%20my%20requirements." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Discuss Your Project</a>
+          <div class="contact-links">
+            <a href="mailto:fmuhsanalii@gmail.com"><i class="fa-regular fa-envelope"></i> fmuhsanalii@gmail.com</a>
+            <a href="tel:+923446678815"><i class="fa-solid fa-phone"></i> +92 344 6678815</a>
+          </div>
+          <p class="location-note"><strong>Based in Bedian Road, Lahore, Punjab, Pakistan.</strong><br>100% online global agency · No physical walk-in retail shop.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-lockup"><svg class="footer-mark" viewBox="0 0 120 120" fill="none" aria-hidden="true"><defs><linearGradient id="footF1" x1="16" y1="88" x2="112" y2="14"><stop stop-color="#0038d8"/><stop offset=".48" stop-color="#0095ff"/><stop offset="1" stop-color="#00f7ff"/></linearGradient><linearGradient id="footF2" x1="12" y1="112" x2="90" y2="52"><stop stop-color="#00f7ff"/><stop offset=".55" stop-color="#0088ff"/><stop offset="1" stop-color="#0040e5"/></linearGradient></defs><path d="M18 84 C24 52 30 30 43 20 C53 13 68 13 114 13 C107 32 96 42 78 42 L51 42 C42 42 37 48 33 63 L18 84Z" fill="url(#footF1)"/><path d="M12 110 C18 80 23 63 34 54 C42 48 54 48 92 48 C87 65 77 74 60 74 L47 74 C39 74 35 80 31 96 C28 106 23 110 12 110Z" fill="url(#footF2)"/></svg><div><div class="footer-brand">Faizan AI Works</div><div class="footer-tag">Ideas | Videos | Brands | Beyond</div></div></div>
+      <div class="signature-wrap">
+        <span class="sig-line-1">PRODUCT ADVERTISING</span>
+        <span class="sig-line-2">BY FAIZAN AI WORKS</span>
+        <div class="signature-laser-line" style="margin:18px auto 13px"></div>
+      </div>
+      <div class="copyright">© <span id="year"></span> Faizan AI Works. All rights reserved.<br>Bedian Road, Lahore, Pakistan · Serving clients worldwide</div>
+    </div>
+  </footer>
+
+  <!-- Floating AI assistant -->
+  <button class="assistant-launcher" id="assistantLauncher" type="button" aria-label="Open AI assistant"><i class="fa-solid fa-sparkles"></i></button>
+  <section class="chat-panel" id="chatPanel" aria-label="Faizan AI Works assistant" aria-hidden="true">
+    <div class="chat-head">
+      <div><strong>Faizan AI Assistant</strong><small>Website information &amp; project enquiries</small></div>
+      <button class="chat-close" id="chatClose" type="button" aria-label="Close assistant">×</button>
+    </div>
+    <div class="chat-messages" id="chatMessages" aria-live="polite">
+      <div class="message bot-message">Hello! Welcome to Faizan AI Works. You can ask about our services, location, project pricing or how to contact us. آپ اردو یا Roman Urdu میں بھی سوال کر سکتے ہیں۔</div>
+    </div>
+    <div class="chat-compose">
+      <form class="chat-form" id="chatForm">
+        <input id="chatInput" type="text" autocomplete="off" placeholder="Ask about our services..." aria-label="Type your question" required>
+        <button type="submit">Send</button>
+      </form>
+      <div class="chat-tools">
+        <button id="micButton" type="button"><i class="fa-solid fa-microphone"></i> Speak</button>
+        <button id="voiceButton" type="button" aria-pressed="true"><i class="fa-solid fa-volume-high"></i> Voice ON</button>
+        <button id="stopVoiceButton" type="button"><i class="fa-solid fa-stop"></i> Stop</button>
+      </div>
+      <div class="chat-status" id="chatStatus">Voice playback depends on browser and available system voices.</div>
+      <div class="chat-hint">This standalone version answers common FAQs. Open-ended AI conversations require a connected AI backend.</div>
+    </div>
+  </section>
+
+  <!-- Admin modal -->
+  <div class="admin-modal" id="adminModal" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+    <div class="admin-box">
+      <h2 id="adminTitle">Portfolio Admin</h2>
+      <p class="muted" style="font-size:.78rem;margin:0 0 10px">Manage folder names and add, edit or remove project links.</p>
+      <div class="admin-warning"><strong>Security notice:</strong> This is a local preview editor only. Changes save in this browser and are not shared with other visitors or devices. A secure, shared online admin panel needs a free backend setup (authentication + database + storage) before public launch.</div>
+      <div id="adminLogin">
+        <label for="adminPin">Admin PIN</label>
+        <input id="adminPin" type="password" inputmode="numeric" autocomplete="off" placeholder="Enter PIN">
+        <div class="admin-row"><button class="admin-primary" id="unlockAdminBtn" type="button">Unlock</button><button class="admin-secondary" id="closeAdminLogin" type="button">Close</button></div>
+      </div>
+      <div id="adminEditor" hidden>
+        <label for="folderSelect">Production folder</label>
+        <select id="folderSelect"></select>
+        <label for="folderName">Folder title</label>
+        <input id="folderName" type="text" maxlength="70">
+        <label for="folderDescription">Folder description</label>
+        <textarea id="folderDescription" maxlength="220"></textarea>
+        <div class="admin-row"><button class="admin-primary" id="saveFolderBtn" type="button">Save folder details</button></div>
+        <hr style="border:0;border-top:1px solid #dce5ee;margin:18px 0">
+        <label for="projectTitle">Project title</label>
+        <input id="projectTitle" type="text" maxlength="90" placeholder="e.g. Luxury skincare commercial">
+        <label for="projectUrl">Project URL (optional)</label>
+        <input id="projectUrl" type="url" placeholder="https://example.com">
+        <div class="admin-row"><button class="admin-primary" id="addProjectBtn" type="button">Add project</button><button class="admin-secondary" id="clearProjectFormBtn" type="button">Clear form</button></div>
+        <label for="projectSelect">Existing projects in selected folder</label>
+        <select id="projectSelect"><option value="">Select a project</option></select>
+        <div class="admin-row"><button class="admin-secondary" id="loadProjectBtn" type="button">Load selected</button><button class="admin-primary" id="updateProjectBtn" type="button">Update selected</button><button class="admin-danger" id="deleteProjectBtn" type="button">Delete selected</button></div>
+        <div class="admin-row"><button class="admin-secondary" id="saveAdminBtn2" type="button">Save to this browser</button><button class="admin-secondary" id="lockAdminBtn" type="button">Lock admin</button><button class="admin-secondary" id="closeAdminEditor" type="button">Close</button></div>
+      </div>
+      <div class="admin-message" id="adminMessage" role="status"></div>
+    </div>
+  </div>
+
+  <script>
+    "use strict";
+
+    /* =========================================================
+       FAIZAN AI WORKS — CONFIGURATION
+       For real AI, set AI_ENDPOINT to your own secure backend.
+       Never put a private Gemini/API key in this HTML file.
+       ========================================================= */
+    const CONFIG = {
+      whatsapp: "923446678815",
+      email: "fmuhsanalii@gmail.com",
+      adminPin: "1234", // Front-end demo lock only; not secure.
+      aiEndpoint: ""    // Example: "https://your-domain.com/api/chat"
+    };
+
+    const DEFAULT_FOLDERS = [
+      {id:"folder-1",name:"AI TV Commercials",icon:"🎬",description:"Premium AI-powered commercials and product advertising.",projects:[]},
+      {id:"folder-2",name:"UGC & Social Video Ads",icon:"📱",description:"Creator-style videos and social media advertising.",projects:[]},
+      {id:"folder-3",name:"JSON & Structured Ads",icon:"⚡",description:"Structured advertising concepts and JSON-based workflows.",projects:[]},
+      {id:"folder-4",name:"AI Drama & Film",icon:"🎭",description:"AI-assisted cinematic storytelling and film production.",projects:[]},
+      {id:"folder-5",name:"Fashion Shoots",icon:"👗",description:"Fashion campaigns, model visuals and editorial concepts.",projects:[]},
+      {id:"folder-6",name:"Product Photography",icon:"📸",description:"Product visuals, advertising images and compositions.",projects:[]},
+      {id:"folder-7",name:"Social Media Carousels",icon:"🖼️",description:"Branded visual sequences and social content.",projects:[]},
+      {id:"folder-8",name:"Creative Experiments",icon:"✨",description:"Innovative AI visual projects and creative explorations.",projects:[]}
+    ];
+    const STORAGE_KEY = "faizan_ai_works_portfolio_v2";
+    let folders = loadFolders();
+    let adminUnlocked = false;
+    let selectedProjectIndex = -1;
+    let voiceEnabled = true;
+    let voiceActivated = false;
+
+    function loadFolders() {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (!saved) return cloneDefaults();
+        const parsed = JSON.parse(saved);
+        if (!Array.isArray(parsed) || parsed.length !== 8) return cloneDefaults();
+        return parsed.map((folder,i) => ({
+          ...cloneDefaults()[i],
+          ...folder,
+          id: cloneDefaults()[i].id,
+          projects: Array.isArray(folder.projects) ? folder.projects.filter(p => p && typeof p.title === "string") : []
+        }));
+      } catch (error) {
+        console.warn("Could not load portfolio data:", error);
+        return cloneDefaults();
+      }
+    }
+    function cloneDefaults() { return DEFAULT_FOLDERS.map(f => ({...f,projects:[]})); }
+    function saveFolders() {
+      try {
+        localStorage.setItem(STORAGE_KEY,JSON.stringify(folders));
+        renderFolders();
+        setAdminMessage("Saved in this browser successfully.");
+        return true;
+      } catch (error) {
+        setAdminMessage("Could not save. Browser storage may be disabled or full.");
+        return false;
+      }
+    }
+    function safeHttpUrl(value) {
+      if (!value) return "";
+      try {
+        const url = new URL(value);
+        return ["http:","https:"].includes(url.protocol) ? url.href : "";
+      } catch { return ""; }
+    }
+    function renderFolders() {
+      const grid = document.getElementById("folderGrid");
+      if (!grid) return;
+      grid.replaceChildren();
+      folders.forEach((folder,index) => {
+        const card = document.createElement("article");
+        card.className = "folder-card";
+        const top = document.createElement("div");
+        top.className = "folder-top";
+        const number = document.createElement("span");
+        number.className = "folder-number";
+        number.textContent = "FOLDER " + String(index+1).padStart(2,"0");
+        const icon = document.createElement("span");
+        icon.className = "folder-symbol";
+        icon.textContent = folder.icon || "✦";
+        top.append(number,icon);
+        const title = document.createElement("h3");
+        title.textContent = folder.name;
+        const desc = document.createElement("p");
+        desc.textContent = folder.description || "";
+        const list = document.createElement("div");
+        list.className = "project-list";
+        if (!folder.projects.length) {
+          const empty = document.createElement("div");
+          empty.className = "empty-projects";
+          empty.textContent = "Projects coming soon.";
+          list.appendChild(empty);
+        } else {
+          folder.projects.forEach(project => {
+            const link = document.createElement("a");
+            link.className = "project-link";
+            link.textContent = project.title;
+            const safeUrl = safeHttpUrl(project.url);
+            link.href = safeUrl || "#contact";
+            if (safeUrl) { link.target = "_blank"; link.rel = "noopener noreferrer"; }
+            list.appendChild(link);
+          });
+        }
+        card.append(top,title,desc,list);
+        grid.appendChild(card);
+      });
+    }
+
+
+    /* Inline category carousels: autoplay only while each card is on screen. */
+    const categorySlides = [
+      [["Premium skincare commercial","https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1400&q=85"],["Luxury fragrance campaign","https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1400&q=85"],["Premium watch advertising","https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=85"]],
+      [["Lifestyle creator campaign","https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1400&q=85"],["Beauty creator content","https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=85"],["Everyday product storytelling","https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1400&q=85"]],
+      [["Structured creative workflow","https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85"],["Digital campaign design","https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=85"],["Creative production systems","https://images.unsplash.com/photo-1559028006-448665bd7c7f?auto=format&fit=crop&w=1400&q=85"]],
+      [["Cinematic film atmosphere","https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=85"],["Moody dramatic scene","https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85"],["Film production moodboard","https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=1400&q=85"]],
+      [["Fashion editorial","https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1400&q=85"],["Luxury fashion campaign","https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1400&q=85"],["Studio fashion portrait","https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1400&q=85"]],
+      [["Product still life","https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1400&q=85"],["Premium fragrance product","https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1400&q=85"],["Minimal product composition","https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=85"]],
+      [["Editorial carousel design","https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85"],["Creative social content","https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=85"],["Brand visual direction","https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&w=1400&q=85"]],
+      [["Restaurant dining experience","https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=85"],["Cafe menu atmosphere","https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1400&q=85"],["Food presentation","https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=85"]],
+      [["Modern website design","https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=85"],["Creative digital workspace","https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=85"],["Brand and web design","https://images.unsplash.com/photo-1559028006-448665bd7c7f?auto=format&fit=crop&w=1400&q=85"]]
+    ];
+    const categoryCards=[...document.querySelectorAll('.category-card')];
+    const slideState=new Map();
+    function showInlineSlide(card,index){
+      const n=Number(card.dataset.category), slides=categorySlides[n], state=slideState.get(card)||0;
+      const slide=slides[index%slides.length], img=card.querySelector('.category-slide-image');
+      img.classList.add('fade');
+      window.setTimeout(()=>{img.src=slide[1];img.alt=slide[0]+' — '+card.querySelector('h3').textContent;img.classList.remove('fade');},180);
+      card.querySelector('.showcase-caption').textContent=slide[0];
+      card.querySelector('.showcase-count').textContent=String(index+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
+      card.querySelectorAll('.showcase-dots i').forEach((dot,i)=>dot.classList.toggle('active',i===index));
+      slideState.set(card,index);
+    }
+    const slideTimers=new Map();
+    function startCardShow(card){if(slideTimers.has(card))return;let idx=slideState.get(card)||0;showInlineSlide(card,idx);const timer=window.setInterval(()=>{idx=(idx+1)%categorySlides[Number(card.dataset.category)].length;showInlineSlide(card,idx);},4200);slideTimers.set(card,timer);}
+    function stopCardShow(card){const timer=slideTimers.get(card);if(timer){clearInterval(timer);slideTimers.delete(card);}}
+    if('IntersectionObserver' in window){const carouselObserver=new IntersectionObserver(entries=>entries.forEach(entry=>entry.isIntersecting?startCardShow(entry.target):stopCardShow(entry.target)),{threshold:.35});categoryCards.forEach(card=>carouselObserver.observe(card));}
+    else categoryCards.forEach(startCardShow);
+    categoryCards.forEach(card=>{const n=Number(card.dataset.category);const first=categorySlides[n][0];const img=card.querySelector('.category-slide-image');img.src=first[1];img.alt=first[0];card.querySelector('.showcase-caption').textContent=first[0];});
+
+    /* QR restaurant menu demo */
+    const menuDemoModal=document.getElementById('menuDemoModal');
+    document.getElementById('openMenuDemo').addEventListener('click',()=>{menuDemoModal.classList.add('open');document.body.style.overflow='hidden';});
+    function closeMenuDemo(){menuDemoModal.classList.remove('open');document.body.style.overflow='';}
+    document.getElementById('closeMenuDemo').addEventListener('click',closeMenuDemo);
+    menuDemoModal.addEventListener('click',e=>{if(e.target===menuDemoModal)closeMenuDemo();});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenuDemo();});
+
+    /* Navigation */
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileNav = document.getElementById("mobileNav");
+    menuToggle.addEventListener("click",() => {
+      const open = mobileNav.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded",String(open));
+      menuToggle.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+    });
+    mobileNav.querySelectorAll("a").forEach(a => a.addEventListener("click",() => {
+      mobileNav.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded","false");
+      menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    }));
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    /* Admin panel — Ctrl+Shift+A opens the login dialog. */
+    const adminModal = document.getElementById("adminModal");
+    const adminLogin = document.getElementById("adminLogin");
+    const adminEditor = document.getElementById("adminEditor");
+    const adminBanner = document.getElementById("adminBanner");
+    function openAdmin() {
+      adminModal.classList.add("open");
+      document.getElementById("adminPin").focus();
+    }
+    function closeAdmin() { adminModal.classList.remove("open"); }
+    function setAdminMessage(message) { document.getElementById("adminMessage").textContent = message; }
+    document.addEventListener("keydown",event => {
+      if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "a") {
+        event.preventDefault(); openAdmin();
+      }
+      if (event.key === "Escape") closeAdmin();
+    });
+    document.getElementById("unlockAdminBtn").addEventListener("click",() => {
+      if (document.getElementById("adminPin").value !== CONFIG.adminPin) {
+        setAdminMessage("Incorrect PIN."); return;
+      }
+      adminUnlocked = true;
+      adminLogin.hidden = true;
+      adminEditor.hidden = false;
+      adminBanner.classList.add("active");
+      populateFolderSelect();
+      setAdminMessage("Admin demo mode unlocked.");
+    });
+    function requireAdmin() {
+      if (!adminUnlocked) { setAdminMessage("Unlock admin first."); return false; }
+      return true;
+    }
+    function selectedFolder() {
+      return folders.find(f => f.id === document.getElementById("folderSelect").value);
+    }
+    function populateFolderSelect() {
+      const select = document.getElementById("folderSelect");
+      select.replaceChildren();
+      folders.forEach(folder => {
+        const option = document.createElement("option");
+        option.value = folder.id; option.textContent = folder.name; select.appendChild(option);
+      });
+      updateFolderFields();
+    }
+    function updateFolderFields() {
+      const folder = selectedFolder();
+      if (!folder) return;
+      document.getElementById("folderName").value = folder.name;
+      document.getElementById("folderDescription").value = folder.description || "";
+      populateProjectSelect();
+    }
+    function populateProjectSelect() {
+      const folder = selectedFolder();
+      const select = document.getElementById("projectSelect");
+      select.replaceChildren();
+      const placeholder = document.createElement("option");
+      placeholder.value = ""; placeholder.textContent = "Select a project";
+      select.appendChild(placeholder);
+      (folder?.projects || []).forEach((project,index) => {
+        const option = document.createElement("option");
+        option.value = String(index); option.textContent = project.title;
+        select.appendChild(option);
+      });
+      selectedProjectIndex = -1;
+    }
+    document.getElementById("folderSelect").addEventListener("change",updateFolderFields);
+    document.getElementById("saveFolderBtn").addEventListener("click",() => {
+      if (!requireAdmin()) return;
+      const folder = selectedFolder();
+      const name = document.getElementById("folderName").value.trim();
+      if (!folder || !name) { setAdminMessage("Enter a folder title."); return; }
+      folder.name = name;
+      folder.description = document.getElementById("folderDescription").value.trim();
+      saveFolders(); populateFolderSelect();
+    });
+    function clearProjectForm() {
+      document.getElementById("projectTitle").value = "";
+      document.getElementById("projectUrl").value = "";
+      document.getElementById("projectSelect").value = "";
+      selectedProjectIndex = -1;
+    }
+    document.getElementById("clearProjectFormBtn").addEventListener("click",clearProjectForm);
+    document.getElementById("addProjectBtn").addEventListener("click",() => {
+      if (!requireAdmin()) return;
+      const folder = selectedFolder();
+      const title = document.getElementById("projectTitle").value.trim();
+      const rawUrl = document.getElementById("projectUrl").value.trim();
+      if (!folder || !title) { setAdminMessage("Enter a project title."); return; }
+      if (rawUrl && !safeHttpUrl(rawUrl)) { setAdminMessage("Enter a valid http:// or https:// URL."); return; }
+      folder.projects.push({title,url:safeHttpUrl(rawUrl)});
+      saveFolders(); populateProjectSelect(); clearProjectForm();
+    });
+    document.getElementById("projectSelect").addEventListener("change",event => {
+      selectedProjectIndex = event.target.value === "" ? -1 : Number(event.target.value);
+    });
+    document.getElementById("loadProjectBtn").addEventListener("click",() => {
+      if (!requireAdmin()) return;
+      const folder = selectedFolder();
+      const project = folder?.projects[selectedProjectIndex];
+      if (!project) { setAdminMessage("Select a project first."); return; }
+      document.getElementById("projectTitle").value = project.title;
+      document.getElementById("projectUrl").value = project.url || "";
+      setAdminMessage("Project loaded for editing.");
+    });
+    document.getElementById("updateProjectBtn").addEventListener("click",() => {
+      if (!requireAdmin()) return;
+      const folder = selectedFolder();
+      const project = folder?.projects[selectedProjectIndex];
+      const title = document.getElementById("projectTitle").value.trim();
+      const rawUrl = document.getElementById("projectUrl").value.trim();
+      if (!project || !title) { setAdminMessage("Select a project and enter its title."); return; }
+      if (rawUrl && !safeHttpUrl(rawUrl)) { setAdminMessage("Enter a valid http:// or https:// URL."); return; }
+      project.title = title; project.url = safeHttpUrl(rawUrl);
+      saveFolders(); populateProjectSelect(); clearProjectForm();
+    });
+    document.getElementById("deleteProjectBtn").addEventListener("click",() => {
+      if (!requireAdmin()) return;
+      const folder = selectedFolder();
+      if (!folder || selectedProjectIndex < 0 || !folder.projects[selectedProjectIndex]) {
+        setAdminMessage("Select a project to delete."); return;
+      }
+      if (!confirm("Delete this portfolio project?")) return;
+      folder.projects.splice(selectedProjectIndex,1);
+      saveFolders(); populateProjectSelect(); clearProjectForm();
+    });
+    function lockAdmin() {
+      adminUnlocked = false;
+      adminBanner.classList.remove("active");
+      adminLogin.hidden = false; adminEditor.hidden = true;
+      document.getElementById("adminPin").value = "";
+      closeAdmin(); setAdminMessage("Admin locked.");
+    }
+    document.getElementById("saveAdminBtn").addEventListener("click",saveFolders);
+    document.getElementById("saveAdminBtn2").addEventListener("click",saveFolders);
+    document.getElementById("openEditorBtn").addEventListener("click",openAdmin);
+    document.getElementById("exitAdminBtn").addEventListener("click",lockAdmin);
+    document.getElementById("lockAdminBtn").addEventListener("click",lockAdmin);
+    document.getElementById("closeAdminLogin").addEventListener("click",closeAdmin);
+    document.getElementById("closeAdminEditor").addEventListener("click",closeAdmin);
+    adminModal.addEventListener("click",event => { if (event.target === adminModal) closeAdmin(); });
+
+    /* AI assistant: local FAQ mode + optional secure backend hook. */
+    const chatPanel = document.getElementById("chatPanel");
+    const chatMessages = document.getElementById("chatMessages");
+    const chatStatus = document.getElementById("chatStatus");
+    function openAssistant() {
+      voiceActivated = true; // User's click opens the assistant and activates voice intent.
+      chatPanel.classList.add("open");
+      chatPanel.setAttribute("aria-hidden","false");
+      document.getElementById("chatInput").focus();
+    }
+    function closeAssistant() {
+      chatPanel.classList.remove("open");
+      chatPanel.setAttribute("aria-hidden","true");
+    }
+    document.getElementById("assistantLauncher").addEventListener("click",() => {
+      chatPanel.classList.contains("open") ? closeAssistant() : openAssistant();
+    });
+    document.getElementById("heroAssistantBtn").addEventListener("click",openAssistant);
+    document.getElementById("chatClose").addEventListener("click",closeAssistant);
+
+    function detectLanguage(text) {
+      if (/[\u0600-\u06FF]/.test(text)) return "ur";
+      if (/\b(kya|kaise|kitna|kitni|hai|hain|mujhe|chahiye|apka|aap|kahan|karna|batao|keemat|qeemat)\b/i.test(text)) return "roman";
+      return "en";
+    }
+    const ANSWERS = {
+      en: {
+        greeting:"Hello! Welcome to Faizan AI Works. We create AI commercials, UGC ads, JSON ads, AI drama and films, fashion shoots, product photography, social media carousels, digital QR menus and custom websites. What would you like to create?",
+        services:"Our services include AI TV commercials, UGC video ads, JSON ads, AI drama and film production, fashion shoots, product photography, social media carousels, digital restaurant QR menus and custom website design.",
+        price:"We don't quote arbitrary fixed prices. Pricing depends on your project scope, creative requirements, complexity and deliverables. Message us on WhatsApp at +92 344 6678815 so we can understand your project and discuss it properly.",
+        location:"Faizan AI Works is based in Bedian Road, Lahore, Punjab, Pakistan. We are a 100% online global agency, not a physical walk-in retail shop. You can contact us on WhatsApp at +92 344 6678815.",
+        contact:"You can reach Faizan AI Works on WhatsApp at +92 344 6678815 or email fmuhsanalii@gmail.com.",
+        qr:"We create digital QR menus for restaurants, cafes and food businesses. Tell us about your menu, number of items and any special features on WhatsApp at +92 344 6678815.",
+        website:"We design custom responsive websites for businesses and brands. Share your business type, goals and required pages on WhatsApp at +92 344 6678815.",
+        default:"Thanks for your question. I can answer common questions about Faizan AI Works, our services, location and pricing. For a detailed or unusual project request, please message our team on WhatsApp at +92 344 6678815."
+      },
+      roman: {
+        greeting:"Assalam-o-Alaikum! Faizan AI Works mein khush aamdeed. Hum AI commercials, UGC ads, JSON ads, AI films, fashion shoots, product photography, QR menus aur custom websites banate hain. Aap kya create karwana chahte hain?",
+        services:"Hamari services mein AI TV commercials, UGC video ads, JSON ads, AI drama aur films, fashion shoots, product photography, social media carousels, digital restaurant QR menus aur custom website design shamil hain.",
+        price:"Hum arbitrary fixed prices nahi dete. Pricing project ke scope, complexity, creative requirements aur deliverables par depend karti hai. Apna project discuss karne ke liye WhatsApp +92 344 6678815 par message karein.",
+        location:"Faizan AI Works Bedian Road, Lahore, Punjab, Pakistan mein based hai. Hum 100% online global agency hain, physical walk-in retail shop nahi. WhatsApp +92 344 6678815 par rabta karein.",
+        contact:"Aap WhatsApp +92 344 6678815 ya email fmuhsanalii@gmail.com par hamari team se rabta kar sakte hain.",
+        qr:"Hum restaurants aur cafes ke liye digital QR menus banate hain. Apne menu ki details discuss karne ke liye WhatsApp +92 344 6678815 par message karein.",
+        website:"Hum businesses aur brands ke liye custom responsive websites design karte hain. Apne business ki requirements WhatsApp +92 344 6678815 par share karein.",
+        default:"Shukriya! Main Faizan AI Works ki services, location aur pricing ke basic sawalat ka jawab de sakta hoon. Detailed project discussion ke liye WhatsApp +92 344 6678815 par rabta karein."
+      },
+      ur: {
+        greeting:"السلام علیکم! Faizan AI Works میں خوش آمدید۔ ہم AI commercials، UGC ads، JSON ads، AI films، fashion shoots، product photography، QR menus اور custom websites بناتے ہیں۔ آپ کیا بنوانا چاہتے ہیں؟",
+        services:"ہماری services میں AI TV commercials، UGC video ads، JSON ads، AI drama اور films، fashion shoots، product photography، social media carousels، digital restaurant QR menus اور custom website design شامل ہیں۔",
+        price:"ہم کوئی من مانا fixed price نہیں دیتے۔ قیمت project کے scope، complexity، creative requirements اور deliverables کے مطابق طے ہوتی ہے۔ تفصیلات کے لیے WhatsApp +92 344 6678815 پر رابطہ کریں۔",
+        location:"Faizan AI Works، Bedian Road، Lahore، Punjab، Pakistan میں واقع ہے۔ ہم 100% online global agency ہیں، physical walk-in retail shop نہیں۔ WhatsApp +92 344 6678815 پر رابطہ کریں۔",
+        contact:"آپ WhatsApp +92 344 6678815 یا email fmuhsanalii@gmail.com پر ہماری ٹیم سے رابطہ کر سکتے ہیں۔",
+        qr:"ہم restaurants اور cafes کے لیے digital QR menus بناتے ہیں۔ اپنے menu کی requirements پر بات کرنے کے لیے WhatsApp +92 344 6678815 پر رابطہ کریں۔",
+        website:"ہم businesses اور brands کے لیے custom responsive websites design کرتے ہیں۔ اپنی requirements WhatsApp +92 344 6678815 پر بھیجیں۔",
+        default:"آپ کے سوال کا شکریہ۔ میں Faizan AI Works کی services، location اور pricing کے بنیادی سوالات کے جواب دے سکتا ہوں۔ تفصیلی project discussion کے لیے WhatsApp +92 344 6678815 پر رابطہ کریں۔"
+      }
+    };
+    function localAnswer(question) {
+      const q = question.toLowerCase();
+      const lang = detectLanguage(question);
+      const a = ANSWERS[lang];
+      if (/\b(hi|hello|hey|salam|assalam|اسلام علیکم|السلام علیکم)\b/i.test(q)) return a.greeting;
+      if (/price|pricing|cost|budget|rate|charges|قیمت|کتنے پیسے|پیسے|qeemat|keemat/.test(q)) return a.price;
+      if (/location|office|address|where|lahore|bedian|آفس|پتہ|کہاں|address/.test(q)) return a.location;
+      if (/whatsapp|contact|email|phone|number|رابطہ|نمبر|rabta/.test(q)) return a.contact;
+      if (/qr|menu|restaurant|cafe|ریسٹورنٹ|مینو/.test(q)) return a.qr;
+      if (/website|web design|web site|site|ویب سائٹ/.test(q)) return a.website;
+      if (/service|services|offer|provide|کیا کام|سروس|کام کرتے/.test(q)) return a.services;
+      return a.default;
+    }
+    function appendMessage(text,type) {
+      const el = document.createElement("div");
+      el.className = "message " + type;
+      el.textContent = text;
+      chatMessages.appendChild(el);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+    function chooseSpeechVoice(lang) {
+      if (!("speechSynthesis" in window)) return null;
+      const voices = speechSynthesis.getVoices();
+      if (lang === "ur") return voices.find(v => /^ur(-|_)/i.test(v.lang)) || null;
+      if (lang === "roman") return voices.find(v => /^en(-|_)(PK|IN)/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null;
+      return voices.find(v => /^en(-|_)(US|GB)/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null;
+    }
+    function speakAnswer(text,lang) {
+      if (!voiceEnabled || !voiceActivated || !("speechSynthesis" in window)) return;
+      speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      const voice = chooseSpeechVoice(lang);
+      utterance.lang = lang === "ur" ? "ur-PK" : (lang === "roman" ? "en-PK" : "en-US");
+      utterance.rate = .94; utterance.pitch = 1;
+      if (voice) { utterance.voice = voice; utterance.lang = voice.lang; }
+      utterance.onerror = () => { chatStatus.textContent = "Voice playback is unavailable in this browser."; };
+      speechSynthesis.speak(utterance);
+    }
+    async function getAssistantAnswer(question) {
+      if (CONFIG.aiEndpoint) {
+        try {
+          const response = await fetch(CONFIG.aiEndpoint,{
+            method:"POST",
+            headers:{"Content-Type":"application/json"},
+            body:JSON.stringify({
+              message:question,
+              context:{
+                agency:"Faizan AI Works",
+                location:"Bedian Road, Lahore, Punjab, Pakistan",
+                onlineOnly:true,
+                whatsapp:"+923446678815",
+                email:"fmuhsanalii@gmail.com",
+                pricing:"Never invent fixed prices; request project scope and refer visitor to WhatsApp.",
+                services:["AI TV Commercials","UGC Ads","JSON Ads","AI Drama & Film","Fashion Shoots","Product Photography","Social Media Carousels","Digital QR Menus","Custom Website Design"]
+              }
+            })
+          });
+          if (!response.ok) throw new Error("AI backend returned " + response.status);
+          const data = await response.json();
+          if (typeof data.reply === "string" && data.reply.trim()) return data.reply.trim();
+          throw new Error("AI backend response did not contain a reply string.");
+        } catch (error) {
+          console.error(error);
+          chatStatus.textContent = "AI service unavailable. Showing the local FAQ response.";
+        }
+      }
+      return localAnswer(question);
+    }
+    document.getElementById("chatForm").addEventListener("submit",async event => {
+      event.preventDefault();
+      const input = document.getElementById("chatInput");
+      const question = input.value.trim();
+      if (!question) return;
+      voiceActivated = true;
+      const lang = detectLanguage(question);
+      appendMessage(question,"user-message");
+      input.value = "";
+      chatStatus.textContent = "Preparing an answer...";
+      const submit = event.submitter || document.querySelector("#chatForm button[type=submit]");
+      submit.disabled = true;
+      try {
+        const answer = await getAssistantAnswer(question);
+        appendMessage(answer,"bot-message");
+        speakAnswer(answer,lang);
+        chatStatus.textContent = "Ready. Voice availability depends on your device and browser.";
+      } finally {
+        submit.disabled = false;
+      }
+    });
+    document.getElementById("voiceButton").addEventListener("click",() => {
+      voiceActivated = true;
+      voiceEnabled = !voiceEnabled;
+      const button = document.getElementById("voiceButton");
+      button.innerHTML = voiceEnabled ? '<i class="fa-solid fa-volume-high"></i> Voice ON' : '<i class="fa-solid fa-volume-xmark"></i> Voice OFF';
+      button.setAttribute("aria-pressed",String(voiceEnabled));
+      if (!voiceEnabled && "speechSynthesis" in window) speechSynthesis.cancel();
+      chatStatus.textContent = voiceEnabled ? "Voice responses enabled." : "Voice responses muted.";
+    });
+    document.getElementById("stopVoiceButton").addEventListener("click",() => {
+      if ("speechSynthesis" in window) speechSynthesis.cancel();
+      chatStatus.textContent = "Voice stopped.";
+    });
+    document.getElementById("micButton").addEventListener("click",() => {
+      voiceActivated = true;
+      if (!window.isSecureContext) {
+        chatStatus.textContent = "Microphone needs a secure HTTPS website. Publish this page on GitHub Pages, then allow microphone access in Chrome.";
+        return;
+      }
+      const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (!Recognition) {
+        chatStatus.textContent = "Speech recognition is not supported here. Please type your question.";
+        return;
+      }
+      const recognition = new Recognition();
+      recognition.lang = "ur-PK"; // Urdu-first speech input; browser support varies by device.
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+      chatStatus.textContent = "Listening in Urdu — speak now. For English, type your message for now.";
+      recognition.onresult = event => {
+        document.getElementById("chatInput").value = event.results[0][0].transcript;
+        document.getElementById("chatForm").requestSubmit();
+      };
+      recognition.onerror = event => {
+        const reasons = {"not-allowed":"Microphone permission is blocked. Allow it in Chrome Site settings.","service-not-allowed":"Speech recognition service is unavailable. Check your internet connection.","no-speech":"No speech detected. Tap the mic and try again.","audio-capture":"No working microphone was found on this device."};
+        chatStatus.textContent = reasons[event.error] || "Microphone unavailable. Check HTTPS, Chrome permission and internet connection.";
+      };
+      recognition.onend = () => {
+        if (chatStatus.textContent.startsWith("Listening")) chatStatus.textContent = "Listening ended.";
+      };
+      try { recognition.start(); } catch { chatStatus.textContent = "Could not start microphone. Allow Chrome microphone permission and use an HTTPS website."; }
+    });
+    if ("speechSynthesis" in window) speechSynthesis.onvoiceschanged = () => {};
+
+    /* Initialize page */
+    renderFolders();
+  </script>
+</body>
+</html>
